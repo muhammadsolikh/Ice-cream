@@ -11,18 +11,16 @@
   max-width: 1170px;
   margin: auto;
   height: 1000px;
-
-  /* background: #ff00ff;
-  opacity: 1; */
-
 }
+
 /* Header */
+
 .header
 {
-  background-color: aqua;
-  height: 100vh;
-  opacity: 0.9;
+  background: #F2CEDA;
   position: relative;
+  height: 100vh;
+
 }
 .header-img
 {
@@ -31,15 +29,13 @@
   height: 79px;
   left: 245px;
   top: 10px;
-
   background: url(./img/images-preview\ 2.png);
 }
 .header-list
 {
-  margin-top: 20px;
   display: flex;
-  /* width: 700px; */
 }
+
 .header-text-1
 {
   position: absolute;
@@ -53,37 +49,25 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
-  /* identical to box height */
-
-
   color: #D23166;
 }
 .header-text-2
 {
-/* Product */
-
-
 position: absolute;
 width: 50px;
 height: 16px;
 left: 671px;
 top: 42px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
-
 color: #150101;
-
 opacity: 0.6;
 }
 .header-text-3
 {
-/* Pricing */
-
-
 position: absolute;
 width: 45px;
 height: 16px;
@@ -95,16 +79,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
-
 color: #150101;
-
 opacity: 0.6;
 }
 .header-text-4
 {
-/* Testimonials */
-
-
 position: absolute;
 width: 82px;
 height: 16px;
@@ -116,16 +95,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
-
 color: #150101;
-
 opacity: 0.6;
 }
 .header-text-5
 {
-/* Contact Us */
-
-
 position: absolute;
 width: 70px;
 height: 16px;
@@ -137,9 +111,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
-
 color: #150101;
-
 opacity: 0.6;
 }
 .btn-item
@@ -181,9 +153,12 @@ opacity: 0.6;
   font-weight: 400;
   font-size: 57.33px;
   line-height: 120.5%;
-  /* or 69px */
   color: #0F0101;
   opacity: 0.9;
+}
+.text-item span
+{
+  color:#D23166;
 }
 .hader-item .subtext-item
 {
@@ -198,10 +173,18 @@ opacity: 0.6;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  /* or 150% */
-
   color: #0F0101;
   opacity: 0.6;
+}
+
+.images
+{
+  position: absolute;
+  width: 894.68px;
+  height: 736px;
+  left: 690px;
+  top: 126px;
+  background: url(./img/bg-image.png);
 }
 .btn
 {
@@ -213,4 +196,64 @@ opacity: 0.6;
   color: #FAFAFA;
   background: #D23166;
   border-radius: 5px;
+}
+
+/* Section */
+.section
+{
+}
+
+.section-list
+{
+  display:flex;
+  width: 1117px;
+  height: 200px;
+  left: 252px;
+  top: 962px;
+  background: #FFFFFF;
+  margin-top: 100px;
+
+}
+.list-text
+{
+  display: block;
+  width: 250px;
+  height: 200px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+  text-align: center;
+  transform: 0.6;
+}
+.list-text:hover
+{
+  transition: 0.3;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
+}
+.list-text img
+{
+  margin-top: 25px;
+  font-size: 300px;
+}
+.section-list .list-text h2
+{
+  margin-top: 20px;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+.section-list .list-text p
+{
+  margin-top: 12px;
+  font-family: 'Hind Madurai';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
 }
